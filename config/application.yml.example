@@ -1,0 +1,4 @@
+DATABASE_HOST: localhost
+DATABASE_NAME: shorty_development
+DATABASE_USERNAME: root
+DATABASE_PASSWORD: my-secret-pw
