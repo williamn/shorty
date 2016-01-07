@@ -4,7 +4,17 @@ A micro service to shorten urls, in the style that TinyURL and bit.ly made popul
 
 ## Installation
 
-TODO: Describe the installation process
+Shorty is self contained using Docker but it possible to set it up from a fresh
+Ubuntu Server 14.04
+
+### Docker
+
+1. Copy file .env.db.example to .env.db
+1. Copy file .env.web.example to .env.web
+1. Change the default environment variables in both .env files
+1. Create and start containers: `docker-compose up`
+
+### Ubuntu Server 14.04
 
 ## Usage
 
