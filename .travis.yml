@@ -2,3 +2,10 @@ language: ruby
 rvm:
   - 2.2.3
 before_install: gem install bundler -v 1.11.0
+services:
+  - mysql
+before_script:
+  - mysql -e 'create database shorty_test;'
+env:
+  - DATABASE_USERNAME=travis
+  - DATABASE_NAME=shorty_test
