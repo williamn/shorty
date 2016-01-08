@@ -7,5 +7,4 @@ services:
 before_script:
   - mysql -e 'create database shorty_test;'
 env:
-  - DATABASE_USERNAME=travis
-  - DATABASE_NAME=shorty_test
+  - DATABASE_USERNAME=travis DATABASE_NAME=shorty_test
